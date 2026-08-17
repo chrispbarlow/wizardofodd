@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="348.26312mm"
+   height="199.43323mm"
+   viewBox="0 0 348.26313 199.43322"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="race_numbers.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="404.46508"
+     inkscape:cy="504.87424"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch3"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#800000;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ccff00;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch3"
+       id="linearGradient3"
+       x1="151.74142"
+       y1="115.00681"
+       x2="500.00455"
+       y2="115.00681"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99996791,0,0,1.2197596,0.01045679,-7.3133324)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-151.74142,-33.250709)">
+    <rect
+       style="fill:url(#linearGradient3);fill-opacity:1;stroke:#000000;stroke-width:0.118172;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2"
+       width="348.14496"
+       height="199.31505"
+       x="151.80051"
+       y="33.309795" />
+    <text
+       xml:space="preserve"
+       style="font-size:229.862px;letter-spacing:-26.4583px;writing-mode:lr-tb;direction:ltr;fill:#ccff00;fill-opacity:1;stroke-width:5;stroke-dasharray:none"
+       x="148.37465"
+       y="184.16383"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:229.862px;font-family:Monospace;-inkscape-font-specification:Monospace;letter-spacing:-26.4583px;fill:#ccff00;fill-opacity:1;stroke:#ccff00;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+         x="148.37465"
+         y="184.16383">221</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:63.2681px;writing-mode:lr-tb;direction:ltr;fill:#ccff00;stroke:none;stroke-width:0.298518;stroke-dasharray:none;stroke-dashoffset:0"
+       x="83.918289"
+       y="352.8457"
+       id="text1-8-8-7-8-7"
+       transform="matrix(1.5674049,-0.00318756,0.07348158,0.6378478,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan1-2-2-1-2-1"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.2681px;font-family:'Brush Script MT';-inkscape-font-specification:'Brush Script MT Italic';fill:#ccff00;stroke:#000000;stroke-width:0.298518;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="83.918289"
+         y="352.8457">~0xDD~</tspan></text>
+  </g>
+</svg>
