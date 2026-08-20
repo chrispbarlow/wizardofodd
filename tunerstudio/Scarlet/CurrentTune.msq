@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Aug 15 09:51:16 BST 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Aug 20 16:35:51 BST 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MegasquirtnSpark+Extra+029q2+***" nPages="11" signature="MSnS-extra format 029q *********"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -32,6 +32,18 @@
          -0.2 
          -0.1 
          0.0 
+      </pcVariable>
+<pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
+         180.0 
+         180.0 
+         160.0 
+         130.0 
+         130.0 
+         130.0 
+         110.0 
+         105.0 
+         100.0 
+         100.0 
       </pcVariable>
 <pcVariable cols="1" digits="0" name="tempTable" rows="10" units="%">
          -40.0 
@@ -93,13 +105,13 @@
 <constant digits="0" name="egoCount1">15.0</constant>
 <constant digits="0" name="egoDelta1" units="%">0.0</constant>
 <constant digits="0" name="egoLimit1" units="%">0.0</constant>
-<constant digits="1" name="reqFuel1" units="ms">15.2</constant>
+<constant digits="1" name="reqFuel1" units="ms">7.6</constant>
 <constant digits="0" name="divider1">2.0</constant>
-<constant name="alternate1">"Alternating"</constant>
+<constant name="alternate1">"Simultaneous"</constant>
 <constant digits="1" name="injOpen1" units="ms">1.0</constant>
-<constant digits="0" name="injPwmP1" units="%">30.0</constant>
-<constant digits="1" name="injPwmT1" units="ms">1.0</constant>
-<constant digits="2" name="battFac1" units="ms/v">0.1000002</constant>
+<constant digits="0" name="injPwmP1" units="%">100.0</constant>
+<constant digits="1" name="injPwmT1" units="ms">25.4</constant>
+<constant digits="2" name="battFac1" units="ms/v">0.2000004</constant>
 <constant digits="0" name="rpmk1">3000.0</constant>
 <constant name="mapType1">"250 kPa"</constant>
 <constant name="mapSensor1">"1"</constant>
@@ -239,13 +251,13 @@
          225.0 
          250.0 
       </constant>
-<constant digits="0" name="TrigAng" units="Deg">0.0</constant>
-<constant digits="0" name="FixAng" units="Deg">-9.9968</constant>
+<constant digits="0" name="TrigAng" units="Deg">65.12</constant>
+<constant digits="0" name="FixAng" units="Deg">10.0672</constant>
 <constant digits="0" name="Trim" units="Deg">0.0</constant>
-<constant digits="0" name="CrankAng" units="Deg">10.0672</constant>
+<constant digits="0" name="CrankAng" units="Deg">72.0192</constant>
 <constant digits="0" name="IgHold">0.0</constant>
-<constant name="Trig_plus">"+45"</constant>
-<constant name="TrigCrank">"Time Based"</constant>
+<constant name="Trig_plus">"+22.5"</constant>
+<constant name="TrigCrank">"Trigger Return"</constant>
 <constant name="IgInv">"Yes"</constant>
 <constant name="oddfire">"No"</constant>
 <constant digits="0" name="IdleAdv" units="Deg">10.0672</constant>
@@ -326,13 +338,13 @@
 <constant name="inj2t">"1*^"</constant>
 <constant name="inj2g">"off"</constant>
 <constant name="trig2fall">"rising"</constant>
-<constant digits="0" name="KPaTarg10" units="KPa">8.0</constant>
-<constant digits="0" name="KPaTarg40" units="KPa">26.0</constant>
+<constant digits="0" name="KPaTarg10" units="KPa">12.0</constant>
+<constant digits="0" name="KPaTarg40" units="KPa">42.0</constant>
 <constant digits="0" name="KPaTarg60" units="KPa">0.0</constant>
 <constant digits="0" name="KPaTarg100" units="KPa">0.0</constant>
 <constant name="TPSRPMTarg">"TPS"</constant>
-<constant digits="0" name="TargetB1" units="Raw Value">3.0</constant>
-<constant digits="0" name="TargetB2" units="Raw Value">21.0</constant>
+<constant digits="0" name="TargetB1" units="Raw Value">2.0</constant>
+<constant digits="0" name="TargetB2" units="Raw Value">32.0</constant>
 <constant digits="0" name="TargetB3" units="Raw Value">0.0</constant>
 <constant digits="0" name="TargetB4" units="Raw Value">0.0</constant>
 <constant name="AfrTar">"Off*^(DT)"</constant>
@@ -404,12 +416,12 @@
 <constant digits="2" name="N2Odel_flat" units="s">0.0</constant>
 <constant digits="2" name="N2Oholdon" units="s">0.0</constant>
 <constant digits="0" name="numteeth">60.0</constant>
-<constant digits="0" name="trig1">3.0</constant>
-<constant digits="0" name="trig2">21.0</constant>
+<constant digits="0" name="trig1">2.0</constant>
+<constant digits="0" name="trig2">32.0</constant>
 <constant digits="0" name="trig3">0.0</constant>
 <constant digits="0" name="trig4">0.0</constant>
-<constant digits="0" name="trig1ret">8.0</constant>
-<constant digits="0" name="trig2ret">26.0</constant>
+<constant digits="0" name="trig1ret">12.0</constant>
+<constant digits="0" name="trig2ret">42.0</constant>
 <constant digits="0" name="trig3ret">0.0</constant>
 <constant digits="0" name="trig4ret">0.0</constant>
 <constant digits="0" name="trig5">0.0</constant>
@@ -473,7 +485,7 @@
 <constant name="TractMode">"RPM Based"</constant>
 <constant digits="0" name="TractSlipH" units="%">0.0</constant>
 <constant name="falsetrig_dis">"Enabled*"</constant>
-<constant name="wheel_old">"024s9 style"</constant>
+<constant name="wheel_old">"025 style"</constant>
 <constant name="dwellcont">"Dwell control"</constant>
 <constant digits="1" name="dwellcrank" units="ms">5.0</constant>
 <constant digits="1" name="dwellrun" units="ms">3.5</constant>
@@ -958,12 +970,12 @@
 <constant name="AlwaysPrime">"Prime Pulse&gt;0*^"</constant>
 <constant name="PrimeLate">"Power Up*^"</constant>
 <constant name="PrimeTBox">"Priming Table"</constant>
-<constant name="crankpwip">"CLT only*^"</constant>
+<constant name="crankpwip">"MAT only"</constant>
 <constant name="ExFuelCrank">"On"</constant>
-<constant digits="0" name="CrankRPM" units="rpm">500.0</constant>
-<constant digits="0" name="tpsflood" units="raw">200.0</constant>
+<constant digits="0" name="CrankRPM" units="rpm">100.0</constant>
+<constant digits="0" name="tpsflood" units="raw">100.0</constant>
 <constant digits="1" name="PrimePulse" units="mS">2.0</constant>
-<constant digits="0" name="ExtraFMult" units="%">50.0</constant>
+<constant digits="0" name="ExtraFMult" units="%">60.0</constant>
 <constant cols="1" digits="0" name="IATCorS" rows="7" units="%">
          0.0 
          0.0 
