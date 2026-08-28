@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Aug 20 19:31:42 BST 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Aug 28 10:54:28 BST 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MegasquirtnSpark+Extra+029q2+***" nPages="11" signature="MSnS-extra format 029q *********"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -126,8 +126,8 @@
 <constant name="baroCorr1">"Off"</constant>
 <constant digits="0" name="egoRPM1" units="RPM">900.0</constant>
 <constant digits="1" name="fastIdleT1" units="C">59.94</constant>
-<constant digits="3" name="egoSwitch1" units="v">2.5088</constant>
-<constant name="egoIgnCount">"Ign Pulses*^"</constant>
+<constant digits="3" name="egoSwitch1" units="v">0.0</constant>
+<constant name="egoIgnCount">"mSec"</constant>
 <constant digits="0" name="UNALLOCATED_SPACE_0_0" units="RAW">
          0.0 
       </constant>
@@ -213,9 +213,9 @@
          9.0112 10.0672 18.1632 22.0352 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
          9.0112 10.0672 13.9392 22.0352 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
          9.0112 10.0672 11.8272 19.9232 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
-         9.0112 10.0672 11.8272 19.9232 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
-         9.0112 10.0672 11.8272 19.9232 24.8512 26.9632 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
-         9.0112 10.0672 13.9392 17.1072 24.8512 24.8512 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
+         9.0112 11.8272 13.5872 17.1072 20.6272 23.0912 25.2032 28.3712 31.8912 31.8912 31.8912 31.8912 
+         9.0112 11.8272 13.5872 17.1072 20.6272 23.0912 25.2032 28.3712 31.8912 31.8912 31.8912 31.8912 
+         9.0112 10.0672 13.9392 17.1072 23.4432 28.3712 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
          9.0112 10.0672 13.9392 17.1072 24.1472 28.0192 30.1312 30.1312 28.0192 28.0192 28.0192 28.0192 
          9.0112 10.0672 13.9392 14.9952 20.9792 24.8512 25.9072 24.8512 24.8512 24.8512 24.8512 24.8512 
          9.0112 10.0672 13.9392 14.9952 20.9792 24.1472 24.1472 24.1472 24.1472 24.1472 24.1472 24.1472 
@@ -251,12 +251,12 @@
          225.0 
          250.0 
       </constant>
-<constant digits="0" name="TrigAng" units="Deg">65.12</constant>
+<constant digits="0" name="TrigAng" units="Deg">59.84</constant>
 <constant digits="0" name="FixAng" units="Deg">10.0672</constant>
 <constant digits="0" name="Trim" units="Deg">0.0</constant>
-<constant digits="0" name="CrankAng" units="Deg">72.0192</constant>
+<constant digits="0" name="CrankAng" units="Deg">10.0672</constant>
 <constant digits="0" name="IgHold">0.0</constant>
-<constant name="Trig_plus">"+22.5"</constant>
+<constant name="Trig_plus">"0"</constant>
 <constant name="TrigCrank">"Trigger Return"</constant>
 <constant name="IgInv">"Yes"</constant>
 <constant name="oddfire">"No"</constant>
@@ -338,16 +338,16 @@
 <constant name="inj2t">"1*^"</constant>
 <constant name="inj2g">"off"</constant>
 <constant name="trig2fall">"rising"</constant>
-<constant digits="0" name="KPaTarg10" units="KPa">12.0</constant>
-<constant digits="0" name="KPaTarg40" units="KPa">42.0</constant>
+<constant digits="0" name="KPaTarg10" units="KPa">13.0</constant>
+<constant digits="0" name="KPaTarg40" units="KPa">43.0</constant>
 <constant digits="0" name="KPaTarg60" units="KPa">0.0</constant>
 <constant digits="0" name="KPaTarg100" units="KPa">0.0</constant>
 <constant name="TPSRPMTarg">"TPS"</constant>
-<constant digits="0" name="TargetB1" units="Raw Value">2.0</constant>
-<constant digits="0" name="TargetB2" units="Raw Value">32.0</constant>
+<constant digits="0" name="TargetB1" units="Raw Value">5.0</constant>
+<constant digits="0" name="TargetB2" units="Raw Value">35.0</constant>
 <constant digits="0" name="TargetB3" units="Raw Value">0.0</constant>
 <constant digits="0" name="TargetB4" units="Raw Value">0.0</constant>
-<constant name="AfrTar">"Off*^(DT)"</constant>
+<constant name="AfrTar">"On"</constant>
 <constant name="AfrTar2">"Off*^(DT)"</constant>
 <constant digits="0" name="EgoLimKPa" units="KPa">255.0</constant>
 <constant digits="0" name="EgoLim2" units="+-">10.0</constant>
@@ -416,12 +416,12 @@
 <constant digits="2" name="N2Odel_flat" units="s">0.0</constant>
 <constant digits="2" name="N2Oholdon" units="s">0.0</constant>
 <constant digits="0" name="numteeth">60.0</constant>
-<constant digits="0" name="trig1">2.0</constant>
-<constant digits="0" name="trig2">32.0</constant>
+<constant digits="0" name="trig1">5.0</constant>
+<constant digits="0" name="trig2">35.0</constant>
 <constant digits="0" name="trig3">0.0</constant>
 <constant digits="0" name="trig4">0.0</constant>
-<constant digits="0" name="trig1ret">12.0</constant>
-<constant digits="0" name="trig2ret">42.0</constant>
+<constant digits="0" name="trig1ret">13.0</constant>
+<constant digits="0" name="trig2ret">43.0</constant>
 <constant digits="0" name="trig3ret">0.0</constant>
 <constant digits="0" name="trig4ret">0.0</constant>
 <constant digits="0" name="trig5">0.0</constant>
@@ -707,13 +707,13 @@
 </page>
 <page number="6" size="189">
 <constant cols="8" digits="1" name="afrBins1" rows="8" units="AFR">
-         15.0170435 15.0170435 15.0170435 15.0170435 15.0170435 15.0170435 15.0170435 15.0170435 
-         14.4982205 15.0170435 15.0170435 15.0170435 14.7864555 14.4982205 14.4982205 14.4982205 
+         14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 
+         14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 14.4982205 
          14.4982205 14.0946915 13.5182215 13.5182215 13.9793975 13.9793975 13.9793975 13.9793975 
          14.4982205 13.8064565 12.8841045 12.9993985 12.9993985 12.9993985 13.8064565 13.8064565 
          12.0193995 12.0193995 12.0193995 12.0193995 12.0193995 12.0193995 12.0193995 12.0193995 
          11.6735175 11.6735175 11.6735175 11.6735175 11.6735175 11.6735175 11.6735175 11.6735175 
-         11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 
+         11.5005765 12.4805755 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 
          11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 11.5005765 
       </constant>
 <constant cols="1" digits="0" name="rpmBins6" rows="8" units="RPM">
@@ -962,18 +962,18 @@
 <constant digits="1" name="CrankPWT3" units="mS">6.0</constant>
 <constant digits="1" name="CrankPWT4" units="mS">5.5</constant>
 <constant digits="1" name="CrankPWT5" units="mS">5.0</constant>
-<constant digits="1" name="CrankPWT6" units="mS">4.5</constant>
-<constant digits="1" name="CrankPWT7" units="mS">4.0</constant>
-<constant digits="1" name="CrankPWT8" units="mS">3.5</constant>
+<constant digits="1" name="CrankPWT6" units="mS">5.0</constant>
+<constant digits="1" name="CrankPWT7" units="mS">5.0</constant>
+<constant digits="1" name="CrankPWT8" units="mS">5.0</constant>
 <constant digits="1" name="CrankPWT9" units="mS">2.5</constant>
 <constant digits="1" name="CrankPWT10" units="mS">2.0</constant>
 <constant name="AlwaysPrime">"Prime Pulse&gt;0*^"</constant>
 <constant name="PrimeLate">"Power Up*^"</constant>
-<constant name="PrimeTBox">"Priming Table"</constant>
-<constant name="crankpwip">"MAT only"</constant>
+<constant name="PrimeTBox">"Standard Prime"</constant>
+<constant name="crankpwip">"CLT only*^"</constant>
 <constant name="ExFuelCrank">"On"</constant>
-<constant digits="0" name="CrankRPM" units="rpm">100.0</constant>
-<constant digits="0" name="tpsflood" units="raw">100.0</constant>
+<constant digits="0" name="CrankRPM" units="rpm">300.0</constant>
+<constant digits="0" name="tpsflood" units="raw">140.0</constant>
 <constant digits="1" name="PrimePulse" units="mS">2.0</constant>
 <constant digits="0" name="ExtraFMult" units="%">60.0</constant>
 <constant cols="1" digits="0" name="IATCorS" rows="7" units="%">
