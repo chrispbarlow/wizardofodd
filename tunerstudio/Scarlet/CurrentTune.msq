@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Aug 28 10:54:28 BST 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Sep 19 19:26:11 BST 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MegasquirtnSpark+Extra+029q2+***" nPages="11" signature="MSnS-extra format 029q *********"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -9,10 +9,10 @@
 <pcVariable name="tsInjSizeConstant">"cc/min"</pcVariable>
 <pcVariable name="tsLogPowerFields">"Log HP &amp; Tq"</pcVariable>
 <pcVariable name="tsLogPerfFields">"Off"</pcVariable>
-<pcVariable name="tsFuelConsumptionUnits">"US Gallons"</pcVariable>
+<pcVariable name="tsFuelConsumptionUnits">"Imperial Gallons"</pcVariable>
 <pcVariable name="tsDistanceUnits">"Miles Per Hour"</pcVariable>
-<pcVariable digits="0" name="tsVehicleWeight">3450.0</pcVariable>
-<pcVariable name="tsWeightUnits">"lbs"</pcVariable>
+<pcVariable digits="0" name="tsVehicleWeight">750.0</pcVariable>
+<pcVariable name="tsWeightUnits">"kg"</pcVariable>
 <pcVariable digits="2" name="tsVehicleDragCoef">0.34</pcVariable>
 <pcVariable digits="0" name="tsTirePressure" units="psi">32.0</pcVariable>
 <pcVariable digits="1" name="tsFrontalArea">19.3</pcVariable>
@@ -36,12 +36,12 @@
 <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
          180.0 
          180.0 
-         160.0 
+         159.0 
          130.0 
          130.0 
          130.0 
-         110.0 
-         105.0 
+         118.0 
+         100.0 
          100.0 
          100.0 
       </pcVariable>
@@ -60,18 +60,18 @@
 </page>
 <page number="0" size="189">
 <constant cols="12" digits="0" name="veBins1" rows="12" units="%">
-         30.0 30.0 30.0 30.0 30.0 31.0 34.0 36.0 34.0 33.0 32.0 31.0 
-         30.0 30.0 30.0 30.0 39.0 47.0 49.0 49.0 48.0 46.0 45.0 43.0 
-         30.0 30.0 30.0 36.0 46.0 53.0 55.0 55.0 53.0 51.0 50.0 48.0 
-         30.0 30.0 31.0 41.0 52.0 59.0 61.0 60.0 58.0 56.0 54.0 52.0 
-         30.0 30.0 36.0 46.0 57.0 64.0 66.0 65.0 63.0 61.0 59.0 57.0 
-         30.0 30.0 40.0 51.0 62.0 70.0 71.0 70.0 67.0 65.0 63.0 61.0 
-         30.0 31.0 45.0 56.0 67.0 75.0 76.0 75.0 72.0 70.0 67.0 65.0 
-         30.0 38.0 53.0 64.0 76.0 84.0 86.0 84.0 81.0 78.0 76.0 73.0 
-         30.0 44.0 59.0 72.0 85.0 94.0 96.0 93.0 90.0 87.0 84.0 82.0 
-         30.0 49.0 66.0 80.0 94.0 103.0 105.0 103.0 99.0 96.0 93.0 90.0 
-         32.0 54.0 72.0 87.0 103.0 113.0 115.0 112.0 108.0 105.0 101.0 98.0 
-         34.0 57.0 75.0 91.0 107.0 117.0 120.0 117.0 113.0 109.0 105.0 102.0 
+         30.0 30.0 30.0 32.0 37.0 36.0 33.0 36.0 34.0 33.0 32.0 31.0 
+         30.0 30.0 32.0 47.0 67.0 50.0 47.0 49.0 48.0 46.0 45.0 43.0 
+         30.0 30.0 49.0 44.0 54.0 52.0 55.0 55.0 53.0 51.0 50.0 48.0 
+         30.0 41.0 53.0 40.0 52.0 63.0 61.0 60.0 58.0 56.0 54.0 52.0 
+         30.0 61.0 59.0 46.0 54.0 64.0 61.0 65.0 63.0 61.0 59.0 57.0 
+         52.0 70.0 65.0 42.0 49.0 68.0 62.0 70.0 67.0 65.0 63.0 61.0 
+         50.0 53.0 45.0 33.0 34.0 32.0 40.0 75.0 72.0 70.0 67.0 65.0 
+         49.0 49.0 36.0 27.0 30.0 31.0 33.0 84.0 81.0 78.0 76.0 73.0 
+         42.0 39.0 39.0 34.0 36.0 40.0 35.0 71.0 90.0 87.0 84.0 82.0 
+         36.0 44.0 34.0 36.0 44.0 53.0 44.0 90.0 99.0 96.0 93.0 90.0 
+         41.0 59.0 35.0 33.0 44.0 91.0 96.0 112.0 108.0 105.0 101.0 98.0 
+         31.0 62.0 75.0 55.0 70.0 117.0 120.0 117.0 113.0 109.0 105.0 102.0 
       </constant>
 <constant cols="1" digits="0" name="rpmBins1" rows="12" units="RPM">
          700.0 
@@ -105,9 +105,9 @@
 <constant digits="0" name="egoCount1">15.0</constant>
 <constant digits="0" name="egoDelta1" units="%">0.0</constant>
 <constant digits="0" name="egoLimit1" units="%">0.0</constant>
-<constant digits="1" name="reqFuel1" units="ms">7.6</constant>
+<constant digits="1" name="reqFuel1" units="ms">15.2</constant>
 <constant digits="0" name="divider1">2.0</constant>
-<constant name="alternate1">"Simultaneous"</constant>
+<constant name="alternate1">"Alternating"</constant>
 <constant digits="1" name="injOpen1" units="ms">1.0</constant>
 <constant digits="0" name="injPwmP1" units="%">100.0</constant>
 <constant digits="1" name="injPwmT1" units="ms">25.4</constant>
@@ -211,8 +211,8 @@
 <page number="2" size="189">
 <constant cols="12" digits="0" name="advTable1" rows="12" units="deg">
          9.0112 10.0672 18.1632 22.0352 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
-         9.0112 10.0672 13.9392 22.0352 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
-         9.0112 10.0672 11.8272 19.9232 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
+         9.0112 10.0672 9.7152 22.0352 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
+         9.0112 10.0672 9.7152 19.9232 26.9632 30.1312 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
          9.0112 11.8272 13.5872 17.1072 20.6272 23.0912 25.2032 28.3712 31.8912 31.8912 31.8912 31.8912 
          9.0112 11.8272 13.5872 17.1072 20.6272 23.0912 25.2032 28.3712 31.8912 31.8912 31.8912 31.8912 
          9.0112 10.0672 13.9392 17.1072 23.4432 28.3712 31.8912 31.8912 31.8912 31.8912 31.8912 31.8912 
@@ -529,7 +529,7 @@
 <constant digits="3" name="tpsThresh4" units="v/s">0.9765625</constant>
 <constant digits="1" name="taeTime4" units="ms">0.2</constant>
 <constant digits="0" name="tdePct4" units="%">50.0</constant>
-<constant digits="0" name="taeColdM4" units="%">130.0</constant>
+<constant digits="0" name="taeColdM4" units="%">118.0</constant>
 <constant name="mapProportion4">"TPSdot*^(DT)"</constant>
 <constant name="AccelMapASE">"Normal*^"</constant>
 <constant name="RPMBAsedAE">"Normal AE*^"</constant>
@@ -683,10 +683,10 @@
 <constant digits="0" name="ASETable2" units="%">40.0</constant>
 <constant digits="0" name="ASETable3" units="%">40.0</constant>
 <constant digits="0" name="ASETable4" units="%">40.0</constant>
-<constant digits="0" name="ASETable5" units="%">40.0</constant>
-<constant digits="0" name="ASETable6" units="%">40.0</constant>
-<constant digits="0" name="ASETable7" units="%">35.0</constant>
-<constant digits="0" name="ASETable8" units="%">10.0</constant>
+<constant digits="0" name="ASETable5" units="%">25.0</constant>
+<constant digits="0" name="ASETable6" units="%">20.0</constant>
+<constant digits="0" name="ASETable7" units="%">10.0</constant>
+<constant digits="0" name="ASETable8" units="%">5.0</constant>
 <constant digits="0" name="ASETable9" units="%">5.0</constant>
 <constant digits="0" name="ASETable10" units="%">5.0</constant>
 <constant digits="0" name="ASETime">200.0</constant>
@@ -948,12 +948,12 @@
 <constant cols="1" digits="0" name="wueBins9" rows="10" units="%">
          180.0 
          180.0 
-         160.0 
+         159.0 
          130.0 
          130.0 
          130.0 
-         110.0 
-         105.0 
+         118.0 
+         100.0 
          100.0 
          100.0 
       </constant>
@@ -965,12 +965,12 @@
 <constant digits="1" name="CrankPWT6" units="mS">5.0</constant>
 <constant digits="1" name="CrankPWT7" units="mS">5.0</constant>
 <constant digits="1" name="CrankPWT8" units="mS">5.0</constant>
-<constant digits="1" name="CrankPWT9" units="mS">2.5</constant>
-<constant digits="1" name="CrankPWT10" units="mS">2.0</constant>
+<constant digits="1" name="CrankPWT9" units="mS">4.0</constant>
+<constant digits="1" name="CrankPWT10" units="mS">4.0</constant>
 <constant name="AlwaysPrime">"Prime Pulse&gt;0*^"</constant>
 <constant name="PrimeLate">"Power Up*^"</constant>
-<constant name="PrimeTBox">"Standard Prime"</constant>
-<constant name="crankpwip">"CLT only*^"</constant>
+<constant name="PrimeTBox">"Priming Table"</constant>
+<constant name="crankpwip">"CLT,MAT average"</constant>
 <constant name="ExFuelCrank">"On"</constant>
 <constant digits="0" name="CrankRPM" units="rpm">300.0</constant>
 <constant digits="0" name="tpsflood" units="raw">140.0</constant>
@@ -1096,9 +1096,9 @@
          0.0 
          0.0 
          0.0 
+         2.0 
          0.0 
-         0.0 
-         0.0 
+         2.0 
       </constant>
 </page>
 <page number="9" size="189"/>
