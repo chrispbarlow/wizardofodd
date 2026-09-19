@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Sep 19 19:26:11 BST 2026"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Sep 19 19:32:59 BST 2026"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MegasquirtnSpark+Extra+029q2+***" nPages="11" signature="MSnS-extra format 029q *********"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -252,7 +252,7 @@
          250.0 
       </constant>
 <constant digits="0" name="TrigAng" units="Deg">59.84</constant>
-<constant digits="0" name="FixAng" units="Deg">10.0672</constant>
+<constant digits="0" name="FixAng" units="Deg">-9.9968</constant>
 <constant digits="0" name="Trim" units="Deg">0.0</constant>
 <constant digits="0" name="CrankAng" units="Deg">10.0672</constant>
 <constant digits="0" name="IgHold">0.0</constant>
@@ -318,7 +318,7 @@
 <constant name="taeIgnCount">"Sec*^"</constant>
 <constant name="rotaryFDign">"FC Trailing"</constant>
 <constant name="hybridAN">"Off*^"</constant>
-<constant name="inj2cr">"Off"</constant>
+<constant name="inj2cr">"On*^"</constant>
 <constant name="boostUse">"Output1*^"</constant>
 <constant name="shiftUse">"Off*^"</constant>
 <constant name="launchUse">"Off*^"</constant>
@@ -334,9 +334,9 @@
 <constant digits="0" name="LaunchLim" units="rpm">0.0</constant>
 <constant digits="0" name="edismultirpm" units="rpm">0.0</constant>
 <constant name="BoostDir">"Increase boost"</constant>
-<constant name="inj1g">"off"</constant>
+<constant name="inj1g">"on*^"</constant>
 <constant name="inj2t">"1*^"</constant>
-<constant name="inj2g">"off"</constant>
+<constant name="inj2g">"on*^"</constant>
 <constant name="trig2fall">"rising"</constant>
 <constant digits="0" name="KPaTarg10" units="KPa">13.0</constant>
 <constant digits="0" name="KPaTarg40" units="KPa">43.0</constant>
