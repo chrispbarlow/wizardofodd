@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+   <bibliography author="MegaTune 2.25" writeDate="2007-07-02T21:33:19+01:00" />
+   <versionInfo fileFormat="4.0" nPages="9" signature="MS1/Extra format 029y3 *********" />
+   <page number="0" size="189">
+      <constant name="algorithm1">&quot;Speed Density&quot;</constant>
+      <constant name="alternate1">&quot;Simultaneous&quot;</constant>
+      <constant name="baroCorr1">&quot;Off&quot;</constant>
+      <constant name="battFac1" units="ms/v">0.20</constant>
+      <constant name="cltType1">&quot;GM&quot;</constant>
+      <constant name="divider1">4</constant>
+      <constant name="egoCount1">16</constant>
+      <constant name="egoDelta1" units="%">1</constant>
+      <constant name="egoIgnCount">&quot;mSec&quot;</constant>
+      <constant name="egoLimit1" units="%">15</constant>
+      <constant name="egoRPM1" units="RPM">1300</constant>
+      <constant name="egoSwitch1" units="v">0.510</constant>
+      <constant name="egoTemp1" units="F">160</constant>
+      <constant name="egoType1">&quot;Narrow band&quot;</constant>
+      <constant name="engineType1">&quot;Even fire&quot;</constant>
+      <constant name="fastIdleT1" units="F">194.0</constant>
+      <constant name="injOpen1" units="ms">1.0</constant>
+      <constant name="injPwmP1" units="%">75</constant>
+      <constant name="injPwmT1" units="ms">25.5</constant>
+      <constant name="mapBins1" rows="12" units="kPa">
+         20
+         30
+         40
+         50
+         60
+         75
+         90
+         100
+         110
+         120
+         130
+         150
+      </constant>
+      <constant name="mapSensor1">&quot;1&quot;</constant>
+      <constant name="mapType1">&quot;250 kPa&quot;</constant>
+      <constant name="matType1">&quot;GM&quot;</constant>
+      <constant name="nCylinders1">&quot;8&quot;</constant>
+      <constant name="nInjectors1">&quot;8&quot;</constant>
+      <constant name="reqFuel1" units="ms">15.5</constant>
+      <constant name="rpmBins1" rows="12" units="RPM">
+         500
+         1000
+         1500
+         2000
+         2800
+         3600
+         4400
+         5200
+         5500
+         6000
+         6200
+         6500
+      </constant>
+      <constant name="rpmk1">1500</constant>
+      <constant name="twoStroke1">&quot;Four-stroke&quot;</constant>
+      <constant cols="12" name="veBins1" rows="12" units="%">
+         39 40 41 44 44 44 45 45 45 46 47 50
+         47 47 51 51 50 50 50 50 51 55 56 60
+         47 47 51 51 50 50 50 50 51 55 56 60
+         52 55 55 57 60 61 61 65 67 70 72 75
+         52 55 55 57 60 61 61 65 67 70 72 75
+         59 60 60 65 66 70 70 70 72 74 77 80
+         61 63 65 65 68 70 72 75 77 80 84 85
+         65 72 72 74 74 75 75 77 79 83 89 90
+         70 74 74 75 75 77 77 78 82 86 95 95
+         70 74 74 75 75 77 77 78 82 86 95 95
+         75 77 79 73 82 82 82 85 87 89 99 100
+         75 77 79 73 82 82 82 85 87 89 99 100
+      </constant>
+   </page>
+   <page number="1" size="189">
+      <constant name="TwoLambda">&quot;None*^(DT)&quot;</constant>
+      <constant name="algorithm2">&quot;Speed Density&quot;</constant>
+      <constant name="alternate2">&quot;Simultaneous&quot;</constant>
+      <constant name="baroCorr2">&quot;Off&quot;</constant>
+      <constant name="battFac2" units="ms/v">0.20</constant>
+      <constant name="cltType2">&quot;GM&quot;</constant>
+      <constant name="divider2">4</constant>
+      <constant name="egoDelta2" units="%">1</constant>
+      <constant name="egoLimit2" units="%">10</constant>
+      <constant name="egoRPM2" units="RPM">1300</constant>
+      <constant name="egoSwitch2" units="v">0.510</constant>
+      <constant name="egoTemp2" units="F">160</constant>
+      <constant name="egoType2">&quot;Narrow band&quot;</constant>
+      <constant name="engineType2">&quot;Even fire&quot;</constant>
+      <constant name="fastIdleT2" units="F">-40.0</constant>
+      <constant name="injOpen2" units="ms">1.0</constant>
+      <constant name="injPwmP2" units="%">100</constant>
+      <constant name="injPwmT2" units="ms">25.5</constant>
+      <constant name="mapBins2" rows="12" units="kPa">
+         20
+         30
+         40
+         50
+         60
+         75
+         90
+         100
+         110
+         120
+         130
+         140
+      </constant>
+      <constant name="mapType2">&quot;250 kPa&quot;</constant>
+      <constant name="matType2">&quot;GM&quot;</constant>
+      <constant name="nCylinders2">&quot;8&quot;</constant>
+      <constant name="nInjectors2">&quot;8&quot;</constant>
+      <constant name="primePulse2" units="ms">1.3</constant>
+      <constant name="reqFuel2" units="ms">15.5</constant>
+      <constant name="rpmBins2" rows="12" units="RPM">
+         500
+         1000
+         1500
+         2000
+         2800
+         3600
+         4400
+         5200
+         5500
+         6000
+         6500
+         7000
+      </constant>
+      <constant name="rpmk2">1500</constant>
+      <constant name="twoStroke2">&quot;Four-stroke&quot;</constant>
+      <constant cols="12" name="veBins2" rows="12" units="%">
+         39 40 41 44 44 44 45 45 45 46 47 50
+         47 47 51 51 50 50 50 50 51 55 56 60
+         47 47 51 51 50 50 50 50 51 55 56 60
+         52 55 55 57 60 61 61 65 67 70 72 75
+         52 55 55 57 60 61 61 65 67 70 72 75
+         59 60 60 65 66 70 70 70 72 74 77 80
+         61 63 65 65 68 70 72 75 77 80 84 85
+         65 72 72 74 74 75 75 77 79 83 89 90
+         70 74 74 75 75 77 77 78 82 86 95 95
+         70 74 74 75 75 77 77 78 82 86 95 95
+         75 77 79 73 82 82 82 85 87 89 99 100
+         75 77 79 73 82 82 82 85 87 89 99 100
+      </constant>
+   </page>
+   <page number="2" size="189">
+      <constant name="CrankAng" units="Deg">10</constant>
+      <constant name="FixAng" units="Deg">-10</constant>
+      <constant name="IdleAdv" units="Deg">-10</constant>
+      <constant name="IdleAdvCLT" units="F">-40</constant>
+      <constant name="IdleAdvRPM" units="RPM">0</constant>
+      <constant name="IdleAdvTPS" units="ADC">0</constant>
+      <constant name="IdleDelayTime" units="sec">1</constant>
+      <constant name="IgHold">1</constant>
+      <constant name="IgInv">&quot;Yes&quot;</constant>
+      <constant name="Stg2ndParmDlt" units="kPa">0</constant>
+      <constant name="Stg2ndParmKPA" units="kPa">0</constant>
+      <constant name="StgCycles" units="cycles">25</constant>
+      <constant name="TrigAng" units="Deg">60</constant>
+      <constant name="TrigCrank">&quot;Time Based&quot;</constant>
+      <constant name="Trig_plus">&quot;0&quot;</constant>
+      <constant name="Trim" units="Deg">0</constant>
+      <constant cols="12" name="advTable1" rows="12" units="deg">
+         9 9 10 15 22 32 36 36 36 36 36 36
+         9 9 10 15 21 30 32 32 32 32 32 32
+         10 10 13 15 20 28 30 30 30 30 30 30
+         10 10 13 15 19 27 28 28 28 28 28 28
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 11 14 17 22 24 24 24 24 24 24
+         10 10 10 13 16 21 23 23 23 23 23 23
+         10 10 9 11 15 20 22 22 22 22 22 22
+         10 10 8 10 14 19 19 19 19 19 19 19
+      </constant>
+      <constant name="mapBins3" rows="12" units="kPa">
+         30
+         40
+         50
+         60
+         70
+         80
+         90
+         100
+         110
+         120
+         130
+         140
+      </constant>
+      <constant name="oddfire">&quot;No&quot;</constant>
+      <constant name="rpmBins3" rows="12" units="RPM">
+         500
+         700
+         1300
+         2000
+         3000
+         4000
+         5000
+         6000
+         6100
+         6200
+         6300
+         6400
+      </constant>
+      <constant name="spare3_182">0</constant>
+      <constant name="spare3_183">0</constant>
+      <constant name="spare3_184">0</constant>
+   </page>
+   <page number="3" size="189">
+      <constant name="AFMUse">&quot;No AFM *^&quot;</constant>
+      <constant name="AccDecEnrich">&quot;TPSdot*^(DT)&quot;</constant>
+      <constant name="AccelMapASE">&quot;Normal*^&quot;</constant>
+      <constant name="AfrTar">&quot;Off*^(DT)&quot;</constant>
+      <constant name="AfrTar2">&quot;Off*^(DT)&quot;</constant>
+      <constant name="AirCorAFM">&quot;Use IAT&quot;</constant>
+      <constant name="AlphBaroCor">&quot;No&quot;</constant>
+      <constant name="BarroHi" units="KPa">116</constant>
+      <constant name="BarroLow" units="KPa">67</constant>
+      <constant name="BooTbl2Use">&quot;Dont Switch*^&quot;</constant>
+      <constant name="BoostDir">&quot;Increase boost&quot;</constant>
+      <constant name="BoostMaxKn" units="KPa">30</constant>
+      <constant name="CltAdv">&quot;Off&quot;</constant>
+      <constant name="ConsBarCor">&quot;Not Fitted*^&quot;</constant>
+      <constant name="DecayAcPoint" units="mS">0.0</constant>
+      <constant name="DecayAccel">&quot;None*^(DT)&quot;</constant>
+      <constant name="DecelBoost">&quot;Never*^&quot;</constant>
+      <constant name="DecelKPa" units="kPa">255</constant>
+      <constant name="DtNos">&quot;Bank1&quot;</constant>
+      <constant name="EgoLim2" units="+-">5</constant>
+      <constant name="EgoLimKPa" units="KPa">255</constant>
+      <constant name="HCutLCSpark" units="Sparks">3</constant>
+      <constant name="HCutLCType">&quot;Fuel &amp; Spark&quot;</constant>
+      <constant name="HCutSpark" units="Sparks">3</constant>
+      <constant name="HCutType">&quot;Fuel &amp; Spark&quot;</constant>
+      <constant name="HardRevLim" units="rpm">25000</constant>
+      <constant name="IATBoost" units="F">0.0</constant>
+      <constant name="IATBoostSt" units="F">-40.0</constant>
+      <constant name="IStagedMode">&quot;Off*^&quot;</constant>
+      <constant name="IatAdvKpa" units="KPa">75</constant>
+      <constant name="IgAdvDeg" units="F">27.0</constant>
+      <constant name="IgAdvTemp" units="F">140.0</constant>
+      <constant name="IgRetDeg" units="F">18.0</constant>
+      <constant name="IgRetTemp" units="F">160.0</constant>
+      <constant name="InvOut1">&quot;Normal&quot;</constant>
+      <constant name="InvOut2">&quot;Normal&quot;</constant>
+      <constant name="KPaDotBoost">&quot;Never&quot;</constant>
+      <constant name="KPaOn" units="KPa">80</constant>
+      <constant name="KPaTarg10" units="KPa">0</constant>
+      <constant name="KPaTarg100" units="KPa">0</constant>
+      <constant name="KPaTarg40" units="KPa">0</constant>
+      <constant name="KPaTarg60" units="KPa">0</constant>
+      <constant name="KnockAdv" units="Deg">1</constant>
+      <constant name="KnockBoost" units="KPa">0</constant>
+      <constant name="KnockKpa" units="KPa">255</constant>
+      <constant name="KnockMax" units="Deg">5</constant>
+      <constant name="KnockOn">&quot;Off&quot;</constant>
+      <constant name="KnockRet" units="Deg">2</constant>
+      <constant name="KnockRpm" units="RPM">5500</constant>
+      <constant name="KnockRpmL" units="RPM">1500</constant>
+      <constant name="KnockSb" units="Deg">1</constant>
+      <constant name="KnockTim" units="Sec">1</constant>
+      <constant name="KpaTPSTar">&quot;Speed Density&quot;</constant>
+      <constant name="LC_f_limangle" units="Deg">-10</constant>
+      <constant name="LC_f_slim" units="RPM">0</constant>
+      <constant name="LC_flatlim" units="RPM">5500</constant>
+      <constant name="LC_flatsel" units="RPM">25500</constant>
+      <constant name="LachDeg" units="Deg">5</constant>
+      <constant name="LachRpm" units="RPM">3500</constant>
+      <constant name="LachTps" units="Raw ADC">30</constant>
+      <constant name="LaunchLim" units="rpm">4000</constant>
+      <constant name="MaxIatAdv" units="Deg">5.3</constant>
+      <constant name="N2Odel_flat" units="s">0.00</constant>
+      <constant name="N2Odel_launch" units="s">0.00</constant>
+      <constant name="N2Oholdon" units="s">0.00</constant>
+      <constant name="NosAngle" units="Deg">18</constant>
+      <constant name="NosClt" units="F">120.0</constant>
+      <constant name="NosHiKpa" units="KPa">120</constant>
+      <constant name="NosLagSystem">&quot;Off&quot;</constant>
+      <constant name="NosLowKpa" units="KPa">80</constant>
+      <constant name="NosPWHi" units="mSec">0.3</constant>
+      <constant name="NosPWLo" units="mSec">1.2</constant>
+      <constant name="NosRpm" units="RPM">3000</constant>
+      <constant name="NosRpmMax" units="RPM">6000</constant>
+      <constant name="NosTps" units="Raw">200</constant>
+      <constant name="OLoopEgo">&quot;TPS&quot;</constant>
+      <constant name="Out1UpLim" units="raw byte or deg F +40">0</constant>
+      <constant name="Out2UpLim" units="raw byte or deg F +40">0</constant>
+      <constant name="Out3_Out1">&quot;Source&quot;</constant>
+      <constant name="OvrBCutType">&quot;Fuel &amp; Spark&quot;</constant>
+      <constant name="OvrBKpa" units="KPa">0</constant>
+      <constant name="OvrRunC">&quot;Off&quot;</constant>
+      <constant name="OvrRunClt" units="F">60</constant>
+      <constant name="OvrRunKpa" units="KPa">20</constant>
+      <constant name="OvrRunRpm" units="RPM">1700</constant>
+      <constant name="OvrRunTimr" units="Sec">0</constant>
+      <constant name="OvrRunTps" units="Raw ADC">5</constant>
+      <constant name="Pambient" units="kPa">100</constant>
+      <constant name="RPM1S" units="3000RPM/Sec or 5%Slip">0.0</constant>
+      <constant name="RPM2S" units="4000RPM/Sec or 15%Slip">10.0</constant>
+      <constant name="RPM3S" units="6000RPM/Sec or 30%Slip">15.0</constant>
+      <constant name="RPM4S" units="10000RPM/Sec or 70%Slip ">20.0</constant>
+      <constant name="RPMAE1" units="RPM">5500</constant>
+      <constant name="RPMAE2" units="RPM">3500</constant>
+      <constant name="RPMAE3" units="RPM">2000</constant>
+      <constant name="RPMAE4" units="RPM">500</constant>
+      <constant name="RPMBAsedAE">&quot;Normal AE*^&quot;</constant>
+      <constant name="RPMThresh" units="RPM/Sec">2000</constant>
+      <constant name="RPMmS1" units="mS">0.1</constant>
+      <constant name="RPMmS2" units="mS">1.0</constant>
+      <constant name="RPMmS3" units="mS">1.5</constant>
+      <constant name="RPMmS4" units="mS">2.0</constant>
+      <constant name="ST2Delay" units="Sec">0.0</constant>
+      <constant name="STTable2On">&quot;Spark Table1^&quot;</constant>
+      <constant name="ScaleFac">255</constant>
+      <constant name="ShiftLower" units="rpm">5800</constant>
+      <constant name="ShiftUpper" units="rpm">6000</constant>
+      <constant name="SoftLimMax" units="s">5.0</constant>
+      <constant name="SoftLimRetard" units="deg">10</constant>
+      <constant name="SoftRevLim" units="rpm">24000</constant>
+      <constant name="SparkCutBNum" units="Sparks">3</constant>
+      <constant name="SparkCutBase" units="Sparks">5</constant>
+      <constant name="StagedAnd">&quot;One condition&quot;</constant>
+      <constant name="StagedMAP2nd">&quot;Off*^&quot;</constant>
+      <constant name="StartWIKPa" units="KPa">120</constant>
+      <constant name="StgDelta">3</constant>
+      <constant name="StgTrans">25</constant>
+      <constant name="TPSAFRPoint" units="Raw ADC">255</constant>
+      <constant name="TPSBooIAT" units="Raw ADC">0</constant>
+      <constant name="TPSRPMTarg">&quot;TPS&quot;</constant>
+      <constant name="TPSTar">&quot;Always&quot;</constant>
+      <constant name="TargetB1" units="Raw Value">0</constant>
+      <constant name="TargetB2" units="Raw Value">0</constant>
+      <constant name="TargetB3" units="Raw Value">0</constant>
+      <constant name="TargetB4" units="Raw Value">0</constant>
+      <constant name="TpsOn" units="Raw">192</constant>
+      <constant name="TractCySec">&quot;RPM stable for 0.1S&quot;</constant>
+      <constant name="TractCyc1" units="3000RPM/Sec or 5%Slip">3</constant>
+      <constant name="TractCyc2" units="4000RPM/Sec or 15%Slip">5</constant>
+      <constant name="TractCyc3" units="6000RPM/Sec or 30%Slip">8</constant>
+      <constant name="TractCyc4" units="10000RPM/Sec or 70%Slip">12</constant>
+      <constant name="TractMode">&quot;RPM Based&quot;</constant>
+      <constant name="TractNOS">&quot;No&quot;</constant>
+      <constant name="TractRet1" units="3000RPM/Sec or 5%Slip">0</constant>
+      <constant name="TractRet2" units="4000RPM/Sec or 15%Slip">20</constant>
+      <constant name="TractRet3" units="6000RPM/Sec or 30%Slip">20</constant>
+      <constant name="TractRet4" units="10000RPM/Sec or 70%Slip">30</constant>
+      <constant name="TractSC1" units="3000RPM/Sec or 5%Slip">0</constant>
+      <constant name="TractSC2" units="4000RPM/Sec or 15%Slip">0</constant>
+      <constant name="TractSC3" units="6000RPM/Sec or 30%Slip">1</constant>
+      <constant name="TractSC4" units="10000RPM/Sec or 70%Slip">2</constant>
+      <constant name="TractScale" units="%">49</constant>
+      <constant name="TractSlip" units="%">10</constant>
+      <constant name="TractSlipH" units="%">2</constant>
+      <constant name="TractVSSMax" units="V">5.00</constant>
+      <constant name="TractVSSMin" units="V">0.00</constant>
+      <constant name="TractionOn">&quot;Off*^&quot;</constant>
+      <constant name="UseVE3">&quot;Dont switch*^(DT)&quot;</constant>
+      <constant name="VE3Delay" units="Sec">0.0</constant>
+      <constant name="VLaunch">&quot;Off&quot;</constant>
+      <constant name="WaterIIat" units="F">60.0</constant>
+      <constant name="WaterIRpm" units="RPM">3500</constant>
+      <constant name="WaterInj">&quot;Off*&quot;</constant>
+      <constant name="bcUpdateRate" units="ms">10</constant>
+      <constant name="bc_max_diff" units="kPa">255</constant>
+      <constant name="boostUse">&quot;Output1*^&quot;</constant>
+      <constant name="dGain" units="%">2.0</constant>
+      <constant name="dualdizzy">&quot;Normal&quot;</constant>
+      <constant name="dwellcont">&quot;Dwell control&quot;</constant>
+      <constant name="dwellcrank" units="ms">6.0</constant>
+      <constant name="dwellduty50">&quot;75% duty cycle*^&quot;</constant>
+      <constant name="dwellrun" units="ms">4.0</constant>
+      <constant name="edis">&quot;Off*^&quot;</constant>
+      <constant name="edismulti">&quot;Off*^&quot;</constant>
+      <constant name="edismultirpm" units="rpm">1100</constant>
+      <constant name="efanofftemp" units="F">145.0</constant>
+      <constant name="efanontemp" units="F">194.0</constant>
+      <constant name="falsetrig_dis">&quot;Enabled*&quot;</constant>
+      <constant name="fidleUse">&quot;Idle control*&quot;</constant>
+      <constant name="freqDiv">&quot;13.0 Hz&quot;</constant>
+      <constant name="hei7">&quot;Off*^&quot;</constant>
+      <constant name="hybridAN">&quot;Off*^&quot;</constant>
+      <constant name="ignmode">1</constant>
+      <constant name="inj1g">&quot;on*^&quot;</constant>
+      <constant name="inj2cr">&quot;On*^&quot;</constant>
+      <constant name="inj2g">&quot;on*^&quot;</constant>
+      <constant name="inj2t">&quot;1*^&quot;</constant>
+      <constant name="latency" units="us">0</constant>
+      <constant name="launchUse">&quot;Off*^&quot;</constant>
+      <constant name="led17Use">&quot;Spark output A&quot;</constant>
+      <constant name="led18Use">&quot;IRQ trigger&quot;</constant>
+      <constant name="led18_2Use">&quot;0&quot;</constant>
+      <constant name="led19Use">&quot;Acceleration*^&quot;</constant>
+      <constant name="maeBins4" rows="4" units="ms">
+         2.0
+         5.0
+         10.5
+         15.0
+      </constant>
+      <constant name="maeRates4" rows="4" units="ms">
+         50
+         100
+         150
+         250
+      </constant>
+      <constant name="mapProportion4">&quot;TPSdot*^(DT)&quot;</constant>
+      <constant name="mapThresh4" units="kPa/s">300</constant>
+      <constant name="mindischg" units="ms">0.5</constant>
+      <constant name="miss2nd">&quot;no missing&quot;</constant>
+      <constant name="msnsCyl">&quot;MSnS^&quot;</constant>
+      <constant name="neonCrank">&quot;Off*^&quot;</constant>
+      <constant name="nitrousUse">&quot;Off*&quot;</constant>
+      <constant name="numteeth">12</constant>
+      <constant name="onetwo">&quot;-1&quot;</constant>
+      <constant name="out1Hysis" units="raw byte or deg F">0</constant>
+      <constant name="out1lim" units="raw byte or deg F +40">0</constant>
+      <constant name="out1src">&quot;Off*&quot;</constant>
+      <constant name="out2Hysis" units="raw byte or deg F">0</constant>
+      <constant name="out2lim" units="raw byte or deg F +40">0</constant>
+      <constant name="out2src">&quot;Off*&quot;</constant>
+      <constant name="out3Timer" units="Sec">0.0</constant>
+      <constant name="out3lim" units="raw byte or deg F +40">0</constant>
+      <constant name="out3sparkd">&quot;Output3&quot;</constant>
+      <constant name="out3src">&quot;Off*&quot;</constant>
+      <constant name="out4FAN">&quot;Source&quot;</constant>
+      <constant name="out4lim" units="raw byte or deg F +40">0</constant>
+      <constant name="out4src">&quot;Off*&quot;</constant>
+      <constant name="pGain" units="%">25.1</constant>
+      <constant name="rotaryFDign">&quot;FC Trailing&quot;</constant>
+      <constant name="shiftUse">&quot;Off*^&quot;</constant>
+      <constant name="spkeop">&quot;Shiftlight&quot;</constant>
+      <constant name="spkfop">&quot;Knock input&quot;</constant>
+      <constant name="tachconf">&quot;OFF&quot;</constant>
+      <constant name="tachconfdiv">&quot;Normal&quot;</constant>
+      <constant name="taeBins4" rows="4" units="ms">
+         2.0
+         5.0
+         10.5
+         15.0
+      </constant>
+      <constant name="taeColdA4" units="ms">9.0</constant>
+      <constant name="taeColdM4" units="%">100</constant>
+      <constant name="taeIgnCount">&quot;Sec*^&quot;</constant>
+      <constant name="taeRates4" rows="4" units="ms">
+         1.0
+         3.9
+         7.8
+         15.1
+      </constant>
+      <constant name="taeTime4" units="ms">0.2</constant>
+      <constant name="tdePct4" units="%">100</constant>
+      <constant name="tfi">&quot;Off*^&quot;</constant>
+      <constant name="toy_dli">&quot;Normal*&quot;</constant>
+      <constant name="tpsThresh4" units="v/s">0.586</constant>
+      <constant name="trig1">0</constant>
+      <constant name="trig1ret">0</constant>
+      <constant name="trig2">0</constant>
+      <constant name="trig2fall">&quot;falling (like IRQ)&quot;</constant>
+      <constant name="trig2ret">0</constant>
+      <constant name="trig3">0</constant>
+      <constant name="trig3ret">0</constant>
+      <constant name="trig4">0</constant>
+      <constant name="trig4ret">0</constant>
+      <constant name="trig5">0</constant>
+      <constant name="trig5ret">0</constant>
+      <constant name="trig6">0</constant>
+      <constant name="trig6ret">0</constant>
+      <constant name="wd_2trig">&quot;Off&quot;</constant>
+      <constant name="wheel_old">&quot;025 style&quot;</constant>
+      <constant name="wheelon">&quot;Off*^&quot;</constant>
+      <constant name="whlsim">&quot;off&quot;</constant>
+      <constant name="whlsimcnt">4</constant>
+      <constant name="x2use">&quot;Water inj&quot;</constant>
+   </page>
+   <page number="4" size="189">
+      <constant cols="12" name="advTable2" rows="12" units="deg">
+         9 9 10 15 22 32 36 36 36 36 36 36
+         9 9 10 15 21 30 32 32 32 32 32 32
+         10 10 13 15 20 28 30 30 30 30 30 30
+         10 10 13 15 19 27 28 28 28 28 28 28
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 13 15 19 23 26 26 26 26 26 26
+         10 10 11 14 17 22 24 24 24 24 24 24
+         10 10 10 13 16 21 23 23 23 23 23 23
+         10 10 9 11 15 20 22 22 22 22 22 22
+         10 10 8 10 14 19 19 19 19 19 19 19
+      </constant>
+      <constant name="mapBins4" rows="12" units="kPa">
+         30
+         40
+         50
+         60
+         70
+         80
+         90
+         100
+         110
+         120
+         130
+         140
+      </constant>
+      <constant name="rpmBins4" rows="12" units="RPM">
+         500
+         700
+         1300
+         2000
+         3000
+         4000
+         5000
+         6000
+         6100
+         6200
+         6300
+         6400
+      </constant>
+   </page>
+   <page number="5" size="189">
+      <constant name="ASEFixDe">&quot;Decay *^&quot;</constant>
+      <constant name="ASEFixTemp" units="F">45.0</constant>
+      <constant name="ASEFixTim">5</constant>
+      <constant name="ASETable1" units="%">30</constant>
+      <constant name="ASETable10" units="%">5</constant>
+      <constant name="ASETable2" units="%">20</constant>
+      <constant name="ASETable3" units="%">15</constant>
+      <constant name="ASETable4" units="%">12</constant>
+      <constant name="ASETable5" units="%">10</constant>
+      <constant name="ASETable6" units="%">9</constant>
+      <constant name="ASETable7" units="%">8</constant>
+      <constant name="ASETable8" units="%">7</constant>
+      <constant name="ASETable9" units="%">6</constant>
+      <constant name="ASETime">250</constant>
+      <constant name="VEFixASE">&quot;Normal MAP *^&quot;</constant>
+      <constant name="VEFixValue" units="kpa">67</constant>
+      <constant name="aseIgnCount">&quot;Cycles*^&quot;</constant>
+      <constant name="mapBins5" rows="12" units="kPa">
+         20
+         30
+         40
+         50
+         60
+         75
+         90
+         100
+         110
+         120
+         130
+         150
+      </constant>
+      <constant name="rpmBins5" rows="12" units="RPM">
+         500
+         1000
+         1500
+         2000
+         2800
+         3600
+         4400
+         5200
+         5500
+         6000
+         6200
+         6500
+      </constant>
+      <constant cols="12" name="veBins3" rows="12" units="%">
+         39 40 41 44 44 44 45 45 45 46 47 50
+         47 47 51 51 50 50 50 50 51 55 56 60
+         47 47 51 51 50 50 50 50 51 55 56 60
+         52 55 55 57 60 61 61 65 67 70 72 75
+         52 55 55 57 60 61 61 65 67 70 72 75
+         59 60 60 65 66 70 70 70 72 74 77 80
+         61 63 65 65 68 70 72 75 77 80 84 85
+         65 72 72 74 74 75 75 77 79 83 89 90
+         70 74 74 75 75 77 77 78 82 86 95 95
+         70 74 74 75 75 77 77 78 82 86 95 95
+         75 77 79 73 82 82 82 85 87 89 99 100
+         75 77 79 73 82 82 82 85 87 89 99 100
+      </constant>
+   </page>
+   <page number="6" size="189">
+      <constant name="Nos2Angle" units="Deg">0</constant>
+      <constant name="Nos2PWHi" units="mSec">0.0</constant>
+      <constant name="Nos2PWLo" units="mSec">0.0</constant>
+      <constant name="Nos2Rpm" units="RPM">25500</constant>
+      <constant name="Nos2RpmMax" units="RPM">25500</constant>
+      <constant name="Nos2delay" units="s">0.00</constant>
+      <constant cols="8" name="afrBins1" rows="8" units="AFR">
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.1 14.1 14.1 14.1 14.1 14.1 14.1 14.1
+         13.9 13.9 13.9 13.9 13.9 13.9 13.9 13.9
+         13.9 13.9 13.9 13.9 13.9 13.9 13.9 13.9
+         13.7 13.7 13.7 13.7 13.7 13.7 13.7 13.7
+      </constant>
+      <constant cols="8" name="afrBins2" rows="8" units="AFR">
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.7 14.7 14.7 14.7 14.7 14.7 14.7 14.7
+         14.1 14.1 14.1 14.1 14.1 14.1 14.1 14.1
+         13.9 13.9 13.9 13.9 13.9 13.9 13.9 13.9
+         13.9 13.9 13.9 13.9 13.9 13.9 13.9 13.9
+         13.7 13.7 13.7 13.7 13.7 13.7 13.7 13.7
+      </constant>
+      <constant name="mapBins6" rows="8" units="kPa">
+         15
+         30
+         50
+         60
+         90
+         100
+         110
+         150
+      </constant>
+      <constant name="mapBins7" rows="8" units="kPa">
+         15
+         30
+         50
+         60
+         90
+         100
+         110
+         150
+      </constant>
+      <constant name="outaoffs">&quot;0&quot;</constant>
+      <constant name="outaoffv" units="deg">0.0</constant>
+      <constant name="outboffs">&quot;0&quot;</constant>
+      <constant name="outboffv" units="deg">0.0</constant>
+      <constant name="outcoffs">&quot;0&quot;</constant>
+      <constant name="outcoffv" units="deg">0.0</constant>
+      <constant name="outdoffs">&quot;0&quot;</constant>
+      <constant name="outdoffv" units="deg">0.0</constant>
+      <constant name="outeoffs">&quot;0&quot;</constant>
+      <constant name="outeoffv" units="deg">0.0</constant>
+      <constant name="outfoffs">&quot;0&quot;</constant>
+      <constant name="outfoffv" units="deg">0.0</constant>
+      <constant name="rpmBins6" rows="8" units="RPM">
+         500
+         1000
+         1500
+         2000
+         2800
+         3600
+         5000
+         6000
+      </constant>
+      <constant name="rpmBins7" rows="8" units="RPM">
+         500
+         1000
+         1500
+         2000
+         2800
+         3600
+         5000
+         6000
+      </constant>
+   </page>
+   <page number="7" size="189">
+      <constant cols="6" name="bcBins1" rows="6" units="kpa">
+         100 100 100 100 100 100
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+      </constant>
+      <constant cols="6" name="bcBins2" rows="6" units="duty">
+         20 20 20 20 20 20
+         20 20 20 20 20 20
+         20 20 20 20 20 20
+         20 20 20 20 20 20
+         20 20 20 20 20 20
+         20 20 20 20 20 20
+      </constant>
+      <constant cols="6" name="bcBins3" rows="6" units="kpa">
+         100 100 100 100 100 100
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+         100 120 120 120 120 120
+      </constant>
+      <constant name="bcrpmBins1" rows="6" units="RPM">
+         1000
+         2000
+         3000
+         4000
+         5000
+         7000
+      </constant>
+      <constant name="bcrpmBins2" rows="6" units="RPM">
+         1000
+         2000
+         3000
+         4000
+         5000
+         7000
+      </constant>
+      <constant name="bcrpmBins3" rows="6" units="RPM">
+         1000
+         2000
+         3000
+         4000
+         5000
+         7000
+      </constant>
+      <constant name="bctpsBins1" rows="6" units="tps%">
+         20
+         30
+         40
+         50
+         70
+         90
+      </constant>
+      <constant name="bctpsBins2" rows="6" units="tps%">
+         20
+         30
+         40
+         50
+         70
+         90
+      </constant>
+      <constant name="bctpsBins3" rows="6" units="tps%">
+         20
+         30
+         40
+         50
+         70
+         90
+      </constant>
+   </page>
+   <page number="8" size="189">
+      <constant name="AlwaysPrime">&quot;Prime Pulse&gt;0*^&quot;</constant>
+      <constant name="CrankPWT1" units="mS">18.1</constant>
+      <constant name="CrankPWT10" units="mS">3.1</constant>
+      <constant name="CrankPWT2" units="mS">12.1</constant>
+      <constant name="CrankPWT3" units="mS">8.1</constant>
+      <constant name="CrankPWT4" units="mS">6.1</constant>
+      <constant name="CrankPWT5" units="mS">5.6</constant>
+      <constant name="CrankPWT6" units="mS">5.1</constant>
+      <constant name="CrankPWT7" units="mS">4.6</constant>
+      <constant name="CrankPWT8" units="mS">4.1</constant>
+      <constant name="CrankPWT9" units="mS">3.6</constant>
+      <constant name="CrankRPM" units="rpm">300</constant>
+      <constant name="ExFuelCrank">&quot;Off&quot;</constant>
+      <constant name="ExtraFMult" units="%">0</constant>
+      <constant name="IATCTemp" rows="7" units="F">
+         160
+         167
+         176
+         185
+         194
+         203
+         212
+      </constant>
+      <constant name="IATCor">&quot;Normal Correction*^&quot;</constant>
+      <constant name="IATCorS" rows="7" units="%">
+         100
+         98
+         96
+         94
+         92
+         90
+         88
+      </constant>
+      <constant name="IATCorTy">&quot;Coolant Corrected&quot;</constant>
+      <constant name="Idashdelay" units="x 0.01sec">0</constant>
+      <constant name="Ideadbnd" units="+/- RPM">30</constant>
+      <constant name="PrimeLate">&quot;Power Up*^&quot;</constant>
+      <constant name="PrimePulse" units="mS">0.4</constant>
+      <constant name="PrimeTBox">&quot;Priming Table&quot;</constant>
+      <constant name="RPMRedHi" units="RPM">3000</constant>
+      <constant name="RPMRedLo" units="RPM">1000</constant>
+      <constant name="crankpwip">&quot;CLT only*^&quot;</constant>
+      <constant name="fastIdleRPM" units="RPM">1100</constant>
+      <constant name="fastIdleTemp" units="F">65</constant>
+      <constant name="fixedsplit" units="deg">-10</constant>
+      <constant name="ictlrpm1" units="lo RPM">30</constant>
+      <constant name="ictlrpm2" units="hi RPM">100</constant>
+      <constant name="idlePeriod2" units="x 0.01sec">10</constant>
+      <constant name="idleThresh" units="ADC">30</constant>
+      <constant name="idle_dc_hi" units="dc">0</constant>
+      <constant name="idle_dc_lo" units="dc">50</constant>
+      <constant name="idleclosedc" units="dc">0</constant>
+      <constant name="idlecrankdc" units="dc">50</constant>
+      <constant name="idledashdc" units="dc">45</constant>
+      <constant name="idledelayclock" units="x 0.01sec">1</constant>
+      <constant name="idlefreq" units="10000/x = Frequency">100</constant>
+      <constant name="idlemindc" units="dc">27</constant>
+      <constant name="idleperiod" units="x 0.01sec">25</constant>
+      <constant name="idlestartclk" units="x 0.01sec">10</constant>
+      <constant name="irestorerpm" units="RPM">150</constant>
+      <constant name="pwmIdle">&quot;B&amp;G On-Off*^&quot;</constant>
+      <constant name="pwmidlewhen">&quot;Warmup only&quot;</constant>
+      <constant name="rotary2">&quot;Off&quot;</constant>
+      <constant name="slowIdleRPM" units="RPM">650</constant>
+      <constant name="slowIdleTemp" units="F">194</constant>
+      <constant cols="6" name="splitTable" rows="6" units="deg">
+         0 21 21 21 21 21
+         0 16 16 16 16 16
+         0 10 10 10 10 10
+         0 5 5 5 5 5
+         0 0 0 0 0 0
+         -1 -1 -1 -1 -1 -1
+      </constant>
+      <constant name="splitkpaBins" rows="6" units="kpa">
+         40
+         50
+         60
+         80
+         105
+         106
+      </constant>
+      <constant name="splitrpmBins" rows="6" units="RPM">
+         600
+         800
+         3000
+         4000
+         5000
+         7000
+      </constant>
+      <constant name="tpsflood" units="raw">178</constant>
+      <constant name="wueBins9" rows="10" units="%">
+         180
+         180
+         160
+         150
+         135
+         125
+         113
+         108
+         102
+         100
+      </constant>
+   </page>
+</msq>
