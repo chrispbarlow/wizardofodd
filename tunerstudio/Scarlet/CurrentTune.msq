@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Oct 18 16:46:12 BST 2026"/>
-<versionInfo fileFormat="5.0" firmwareInfo="MegasquirtnSpark+Extra+029q2+***" nPages="11" signature="MSnS-extra format 029q *********"/>
+<bibliography author="TunerStudio MS 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Nov 01 17:40:22 GMT 2026"/>
+<versionInfo fileFormat="5.0" firmwareInfo="MS1%2FExtra+rev+029y4+************" nPages="11" signature="MS1/Extra format 029y3 *********"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
+<pcVariable digits="2" name="displayTargetAfr" units=":1">14.7</pcVariable>
+<pcVariable digits="2" name="customWBVoltsLow" units="V">0.0</pcVariable>
+<pcVariable digits="2" name="customWBVoltsHigh" units="V">5.0</pcVariable>
+<pcVariable digits="2" name="customWBAfrLow" units=":1">10.0</pcVariable>
+<pcVariable digits="2" name="customWBAfrHigh" units=":1">20.0</pcVariable>
+<pcVariable cols="1" digits="1" name="crankPrime_tempC" rows="10" units="C°">
+         -40.0 
+         -29.0 
+         -18.0 
+         -7.0 
+         4.0 
+         16.0 
+         27.0 
+         38.0 
+         54.0 
+         71.0 
+      </pcVariable>
+<pcVariable cols="1" digits="1" name="crankPrime_tempF" rows="10" units="F°">
+         -40.0 
+         -20.0 
+         0.0 
+         20.0 
+         40.0 
+         60.0 
+         80.0 
+         100.0 
+         130.0 
+         160.0 
+      </pcVariable>
 <pcVariable name="tsSpeedSource">"GPS Speed"</pcVariable>
 <pcVariable digits="0" name="tsPrimaryInjectorSize">0.0</pcVariable>
 <pcVariable name="tsInjSizeConstant">"cc/min"</pcVariable>
@@ -35,14 +64,14 @@
       </pcVariable>
 <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
          180.0 
-         180.0 
-         159.0 
-         130.0 
-         130.0 
-         130.0 
-         236.0 
-         102.0 
-         100.0 
+         171.0 
+         162.0 
+         153.0 
+         144.0 
+         136.0 
+         127.0 
+         118.0 
+         109.0 
          100.0 
       </pcVariable>
 <pcVariable cols="1" digits="0" name="tempTable" rows="10" units="%">
@@ -60,16 +89,16 @@
 </page>
 <page number="0" size="189">
 <constant cols="12" digits="0" name="veBins1" rows="12" units="%">
-         30.0 30.0 34.0 50.0 50.0 37.0 26.0 39.0 41.0 32.0 31.0 31.0 
-         30.0 31.0 50.0 57.0 54.0 38.0 35.0 41.0 41.0 40.0 39.0 39.0 
-         30.0 48.0 41.0 36.0 35.0 22.0 37.0 49.0 46.0 44.0 44.0 43.0 
-         30.0 60.0 33.0 26.0 23.0 23.0 19.0 22.0 50.0 48.0 48.0 47.0 
-         36.0 43.0 31.0 24.0 23.0 23.0 20.0 26.0 54.0 53.0 52.0 51.0 
-         42.0 38.0 32.0 28.0 29.0 25.0 23.0 20.0 49.0 57.0 56.0 55.0 
-         43.0 33.0 34.0 31.0 30.0 27.0 34.0 33.0 62.0 65.0 64.0 63.0 
-         36.0 26.0 35.0 34.0 33.0 30.0 31.0 40.0 74.0 74.0 72.0 70.0 
-         30.0 47.0 39.0 38.0 40.0 46.0 44.0 64.0 82.0 83.0 80.0 78.0 
-         28.0 31.0 50.0 53.0 55.0 80.0 74.0 92.0 87.0 91.0 88.0 86.0 
+         30.0 30.0 34.0 50.0 48.0 35.0 30.0 37.0 38.0 33.0 33.0 31.0 
+         30.0 31.0 50.0 54.0 45.0 35.0 35.0 37.0 36.0 39.0 38.0 39.0 
+         30.0 48.0 38.0 31.0 28.0 25.0 31.0 36.0 39.0 43.0 44.0 43.0 
+         30.0 57.0 32.0 28.0 25.0 24.0 23.0 25.0 35.0 46.0 48.0 47.0 
+         36.0 43.0 34.0 30.0 28.0 27.0 28.0 30.0 35.0 48.0 52.0 51.0 
+         42.0 40.0 35.0 32.0 31.0 33.0 31.0 31.0 35.0 46.0 56.0 55.0 
+         42.0 37.0 36.0 34.0 32.0 34.0 37.0 36.0 41.0 48.0 65.0 64.0 
+         39.0 29.0 34.0 33.0 33.0 34.0 38.0 40.0 46.0 53.0 67.0 70.0 
+         30.0 43.0 40.0 46.0 60.0 69.0 54.0 64.0 58.0 67.0 71.0 76.0 
+         28.0 34.0 56.0 79.0 88.0 107.0 80.0 93.0 86.0 84.0 79.0 84.0 
          31.0 34.0 64.0 96.0 82.0 106.0 132.0 108.0 103.0 99.0 96.0 94.0 
          31.0 34.0 52.0 69.0 86.0 103.0 120.0 117.0 112.0 107.0 105.0 102.0 
       </constant>
@@ -202,7 +231,7 @@
 <constant digits="3" name="egoSwitch2" units="v">0.0</constant>
 <constant name="TwoLambda">"None*^(DT)"</constant>
 <constant digits="0" name="UNALLOCATED_SPACE_1_0" units="RAW">
-         0.0 
+         16.0 
       </constant>
 <constant digits="0" name="UNALLOCATED_SPACE_1_1" units="RAW">
          0.0 
@@ -272,10 +301,10 @@
 <constant digits="0" name="spare3_183">0.0</constant>
 <constant digits="0" name="spare3_184">0.0</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_2" rows="4" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="3" size="189">
@@ -338,6 +367,7 @@
 <constant name="inj2t">"1*^"</constant>
 <constant name="inj2g">"on*^"</constant>
 <constant name="trig2fall">"rising"</constant>
+<constant digits="0" name="latency" units="us">0.0</constant>
 <constant digits="0" name="KPaTarg10" units="KPa">13.0</constant>
 <constant digits="0" name="KPaTarg40" units="KPa">43.0</constant>
 <constant digits="0" name="KPaTarg60" units="KPa">0.0</constant>
@@ -542,10 +572,9 @@
 <constant digits="1" name="RPMmS3" units="mS">0.0</constant>
 <constant digits="1" name="RPMmS4" units="mS">0.0</constant>
 <constant digits="0" name="UNALLOCATED_SPACE_3_0" units="RAW">
-         0.0 
+         10.0 
       </constant>
-<constant cols="1" digits="0" name="UNALLOCATED_SPACE_3_1" rows="5" units="RAW">
-         0.0 
+<constant cols="1" digits="0" name="UNALLOCATED_SPACE_3_1" rows="4" units="RAW">
          0.0 
          0.0 
          0.0 
@@ -555,7 +584,7 @@
          0.0 
       </constant>
 <constant digits="0" name="UNALLOCATED_SPACE_3_3" units="RAW">
-         0.0 
+         255.0 
       </constant>
 <constant digits="0" name="UNALLOCATED_SPACE_3_4" units="RAW">
          0.0 
@@ -564,9 +593,9 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_3" rows="3" units="RAW">
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="4" size="189">
@@ -613,27 +642,27 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_4" rows="21" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="5" size="189">
@@ -679,17 +708,29 @@
          0.0 
          0.0 
       </constant>
-<constant digits="0" name="ASETable1" units="%">40.0</constant>
-<constant digits="0" name="ASETable2" units="%">40.0</constant>
-<constant digits="0" name="ASETable3" units="%">40.0</constant>
-<constant digits="0" name="ASETable4" units="%">40.0</constant>
-<constant digits="0" name="ASETable5" units="%">25.0</constant>
-<constant digits="0" name="ASETable6" units="%">20.0</constant>
-<constant digits="0" name="ASETable7" units="%">15.0</constant>
-<constant digits="0" name="ASETable8" units="%">5.0</constant>
-<constant digits="0" name="ASETable9" units="%">5.0</constant>
-<constant digits="0" name="ASETable10" units="%">5.0</constant>
-<constant digits="0" name="ASETime">200.0</constant>
+<constant digits="0" name="ASETable1" units="%">37.0</constant>
+<constant digits="0" name="ASETable2" units="%">37.0</constant>
+<constant digits="0" name="ASETable3" units="%">37.0</constant>
+<constant digits="0" name="ASETable4" units="%">37.0</constant>
+<constant digits="0" name="ASETable5" units="%">22.0</constant>
+<constant digits="0" name="ASETable6" units="%">17.0</constant>
+<constant digits="0" name="ASETable7" units="%">12.0</constant>
+<constant digits="0" name="ASETable8" units="%">2.0</constant>
+<constant digits="0" name="ASETable9" units="%">2.0</constant>
+<constant digits="0" name="ASETable10" units="%">2.0</constant>
+<constant cols="1" digits="0" name="ASE_Table" rows="10" units="%">
+         37.0 
+         37.0 
+         37.0 
+         37.0 
+         22.0 
+         17.0 
+         12.0 
+         2.0 
+         2.0 
+         2.0 
+      </constant>
+<constant digits="0" name="ASETime">0.0</constant>
 <constant name="aseIgnCount">"Sec"</constant>
 <constant name="ASEFixDe">"Decay *^"</constant>
 <constant digits="0" name="ASEFixTim">0.0</constant>
@@ -697,12 +738,12 @@
 <constant name="VEFixASE">"Normal MAP *^"</constant>
 <constant digits="0" name="VEFixValue" units="kpa">8.685</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_5" rows="6" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="6" size="189">
@@ -785,17 +826,17 @@
 <constant name="outfoffs">"0"</constant>
 <constant digits="1" name="outfoffv" units="deg">0.0</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_6" rows="11" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="7" size="189">
@@ -872,51 +913,51 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_7" rows="45" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="8" size="189">
@@ -947,32 +988,44 @@
 <constant digits="0" name="idleThresh" units="ADC">0.0</constant>
 <constant cols="1" digits="0" name="wueBins9" rows="10" units="%">
          180.0 
-         180.0 
-         159.0 
-         130.0 
-         130.0 
-         130.0 
-         224.0 
-         102.0 
-         100.0 
+         171.0 
+         162.0 
+         153.0 
+         144.0 
+         136.0 
+         127.0 
+         118.0 
+         107.0 
          100.0 
       </constant>
 <constant digits="1" name="CrankPWT1" units="mS">8.5</constant>
 <constant digits="1" name="CrankPWT2" units="mS">7.0</constant>
-<constant digits="1" name="CrankPWT3" units="mS">6.0</constant>
-<constant digits="1" name="CrankPWT4" units="mS">5.5</constant>
-<constant digits="1" name="CrankPWT5" units="mS">5.0</constant>
-<constant digits="1" name="CrankPWT6" units="mS">5.0</constant>
-<constant digits="1" name="CrankPWT7" units="mS">4.5</constant>
-<constant digits="1" name="CrankPWT8" units="mS">4.5</constant>
-<constant digits="1" name="CrankPWT9" units="mS">4.0</constant>
-<constant digits="1" name="CrankPWT10" units="mS">4.0</constant>
+<constant digits="1" name="CrankPWT3" units="mS">6.5</constant>
+<constant digits="1" name="CrankPWT4" units="mS">6.0</constant>
+<constant digits="1" name="CrankPWT5" units="mS">5.5</constant>
+<constant digits="1" name="CrankPWT6" units="mS">5.8</constant>
+<constant digits="1" name="CrankPWT7" units="mS">5.8</constant>
+<constant digits="1" name="CrankPWT8" units="mS">5.8</constant>
+<constant digits="1" name="CrankPWT9" units="mS">5.3</constant>
+<constant digits="1" name="CrankPWT10" units="mS">5.3</constant>
+<constant cols="1" digits="1" name="crank_pw_table" rows="10" units="ms">
+         8.5 
+         7.0 
+         6.5 
+         6.0 
+         5.5 
+         5.8 
+         5.8 
+         5.8 
+         5.3 
+         5.3 
+      </constant>
 <constant name="AlwaysPrime">"Always"</constant>
 <constant name="PrimeLate">"Twice"</constant>
 <constant name="PrimeTBox">"Standard Prime"</constant>
-<constant name="crankpwip">"CLT only*^"</constant>
+<constant name="crankpwip">"CLT,MAT average"</constant>
 <constant name="ExFuelCrank">"Off"</constant>
-<constant digits="0" name="CrankRPM" units="rpm">300.0</constant>
+<constant digits="0" name="CrankRPM" units="rpm">200.0</constant>
 <constant digits="0" name="tpsflood" units="raw">140.0</constant>
 <constant digits="1" name="PrimePulse" units="mS">2.0</constant>
 <constant digits="0" name="ExtraFMult" units="%">60.0</constant>
@@ -1023,82 +1076,82 @@
 <constant name="rotary2">"Off"</constant>
 <constant digits="0" name="fixedsplit" units="deg">-9.9968</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_8" rows="76" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         2.0 
-         0.0 
-         2.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 </page>
 <page number="9" size="189"/>
